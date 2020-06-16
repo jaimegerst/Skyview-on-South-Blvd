@@ -1,0 +1,28 @@
+header h1 {
+    text-align: center;
+    justify-content: center;  
+    font-family: "Lobster", cursive;
+}
+
+.jumbotron {
+    background: url("/images/rooftop-pool-2.jpg");
+    background-size: cover;
+}
+
+.carousel {
+    border: solid #0000001a;
+}
+
+div.transbox {
+    background-color: #897964;
+}
+
+.footer {
+    background-color: linear-gradient( white);
+    padding: 20px 0; 
+}
+
+.card-img-top {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
