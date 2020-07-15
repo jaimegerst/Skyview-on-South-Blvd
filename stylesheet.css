@@ -4,6 +4,10 @@ header h1 {
     font-family: "Lobster", cursive;
 }
 
+h6,h4,h3,h2 {
+    font-family: "Yanone-Kaffeesatz", sans-serif;
+}
+
 .jumbotron {
     background: url("/images/rooftop-pool-2.jpg");
     background-size: cover;
@@ -25,4 +29,37 @@ div.transbox {
 .card-img-top {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.project-image{
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba (34, 60, 80, .16);
+    transition: all ease-in-out .1s;
+}
+
+.project-image:hover {
+    filter: brightness(.75);
+    box-shadow: 0 8px 12px 0 rgba(34,60, 80, .16);
+}
+
+.project-image-wrapper {
+    justify-self: center;
+    padding: 4%;
+    position: relative;
+}
+
+.project-image-wrapper:hover > h4 {
+    visibility: visible;
+    box-shadow: 0 8px 12px 0 rgba(34,60, 80, .16);
+}
+
+.project-image-wrapper > h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(5, 5, 5);
+    visibility: hidden;
+    z-index: 2;
+    transition: all ease-in-out .1s;
 }
